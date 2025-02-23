@@ -8,3 +8,7 @@ userRouter.patch('/:userId/balance',
   validateBalance,
   UserController.updateBalance
 );
+
+userRouter.get('/',
+  UserController.getAllUsers
+)

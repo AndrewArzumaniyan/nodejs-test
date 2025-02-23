@@ -32,4 +32,8 @@ export class BalanceService {
       throw error;
     }
   }
+
+  static async getAllUsers() {
+    return User.findAll();
+  }
 }

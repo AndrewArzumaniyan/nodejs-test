@@ -24,4 +24,17 @@ export class UserController {
       next(error);
     }
   }
+
+  static async getAllUsers(req, res, next) {
+    try {
+      const users = await BalanceService.getAllUsers();
+
+      res.json({
+        success: true,
+        data: users
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
 }

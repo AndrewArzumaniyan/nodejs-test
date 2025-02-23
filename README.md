@@ -60,6 +60,10 @@ The application will automatically:
 
 
 ## API Endpoints
+### Get all users (demo version for testing)
+- URL: ```/api/users```
+- METHOD: ```GET```
+
 ### Update user balance
 - URL: ```/api/users/:userId/balance```
 - Method: ```PATCH```
