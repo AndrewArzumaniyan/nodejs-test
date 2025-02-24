@@ -28,7 +28,7 @@ src/
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd balance-management-app'
+cd nodejs-test
 ```
 
 2. Install dependencies
@@ -56,7 +56,7 @@ The application will automatically:
 - Connect to the database
 - Run migrations
 - Create an initial user with 10000 balance
-- Start the server on 3000 port
+- Start the server
 
 
 ## API Endpoints
